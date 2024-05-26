@@ -1,8 +1,6 @@
-name1 = input()
-name2 = input()
-name3 = input()
-print(name1)
-print(name2)
-print(name3)
-
-# Что требуется от пользователя?
+str1 = input("Введи первую строку: ")
+str2 = input("Введи вторую строку: ")
+str3 = input("Введи третью строку: ")
+print(str1)
+print(str2)
+print(str3)
