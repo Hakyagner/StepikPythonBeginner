@@ -1,9 +1,7 @@
 a = int(input("Напишите первое число: "))
 b = int(input("Напишите второе число: "))
-c = (a + b) * (a + b) * (a + b)
-d = 3 * c
-e = 275 * b * b
-j = 127 * a
-print(d + e - j - 41)
-
-# правильно называй переменные: слагаемое (summand), степень (degree)
+degree = (a + b) * (a + b) * (a + b)
+summand1 = 3 * degree
+summand2 = 275 * b * b
+summand3 = 127 * a
+print(summand1 + summand2 - summand3 - 41)
