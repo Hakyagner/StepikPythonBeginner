@@ -6,11 +6,11 @@
 
 ### 2.2. *Команды print и input*
 
-| <!-- -->                                                                   | <!-- -->                                                                     | <!-- -->                                                                     |
-|----------------------------------------------------------------------------|------------------------------------------------------------------------------|------------------------------------------------------------------------------|
-| [**2.2.1.** Hello world](problems/problem2.2.1.Hello_world.md)             | [**2.2.2.** A happy sequence 1](problems/problem2.2.2.A_happy_sequence_1.md) | [**2.2.3.** A happy sequence 2](problems/problem2.2.3.A_happy_sequence_2.md) |
+| <!-- -->                                                                  | <!-- -->                                                                     | <!-- -->                                                                     |
+|---------------------------------------------------------------------------|------------------------------------------------------------------------------|------------------------------------------------------------------------------|
+| [**2.2.1.** Hello world](problems/problem2.2.1.Hello_world.md)            | [**2.2.2.** A happy sequence 1](problems/problem2.2.2.A_happy_sequence_1.md) | [**2.2.3.** A happy sequence 2](problems/problem2.2.3.A_happy_sequence_2.md) |
 | [**2.2.4.** The star triangle](problems/problem2.2.4.The_star_triangle.md) | [**2.2.5.** Greeting](problems/problem2.2.5.Greeting.md)                     | [**2.2.6.** Favorite team](problems/problem2.2.6.Favorite_team.md)           |
-| [**2.2.7.** Repeat after me](problems/problem2.2.7.Repeat_after_me.md)     | [**2.2.8.** Repeat after me 2](problems/problem2.2.8.Repeat_after_me_2.md)   |                                                                              | 
+| [**2.2.7.** Repeat after me](problems/problem2.2.7.Repeat_after_me.md)    | [**2.2.8.** Repeat after me 2](problems/problem2.2.8.Repeat_after_me_2.md)   |                                                                              | 
 
 ### 2.3. *Параметры sep и end*
 
@@ -30,5 +30,5 @@
 
 | <!-- -->                                                                             | <!-- -->                                                                                               | <!-- -->                                                                      |
 |--------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------|
-| [**2.5.1.** Geometric progression](problems/problem2.5.1.Geometric_progression.md)   | [**2.5.2.** Distance in meters](problems/problem2.5.2.Distance_in_meters)                              | [**2.5.3.** Mandarins](problems/problem2.5.3.Mandarins.md)                    |
+| [**2.5.1.** Geometric progression](problems/problem2.5.1.Geometric_progression.md)   | [**2.5.2.** Distance in meters](problems/problem2.5.2.Distance_in_meters.md)                           | [**2.5.3.** Mandarins](problems/problem2.5.3.Mandarins.md)                    |
 | [**2.5.4.** The very inevitability](problems/problem2.5.4.The_very_inevitability.md) | [**2.5.5.** Recalculating the time interval](problems/problem2.5.5.Recalculating_the_time_interval.md) | [**2.5.6.** Compartment number*](problems/problem2.5.6.Compartment_number.md) |
