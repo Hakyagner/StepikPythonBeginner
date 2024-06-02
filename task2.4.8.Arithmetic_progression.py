@@ -26,4 +26,5 @@ while True:
         print()
 an = a1 + d * (n - 1)
 print(an)
-print()
+
+# Переменные не определены до цикла

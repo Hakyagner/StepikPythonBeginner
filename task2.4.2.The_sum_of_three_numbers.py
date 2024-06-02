@@ -24,3 +24,5 @@ while True:
         print()
 num4 = int(num1) + int(num2) + int(num3)
 print("Сумма этих чисел равна : ", num4)
+
+# Каких этих чисел?
