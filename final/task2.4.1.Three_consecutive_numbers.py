@@ -1,5 +1,6 @@
 print("Три последовательных числа")
 print()
+
 while True:
     num = input("Напиши число: ")
     if num.isdigit():
