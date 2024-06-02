@@ -19,8 +19,7 @@ while True:
 num3 = num1 + num2
 num4 = num1 - num2
 num5 = num1 * num2
+print()
 print(num1, "+", num2, "=", num3)
 print(num1, "-", num2, "=", num4)
 print(num1, "*", num2, "=", num5)
-
-# Переменные не определены до цикла

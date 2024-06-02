@@ -8,5 +8,5 @@ while True:
     else:
         print("Нужно ввести целое положительное число")
         print()
-print(x, 2 * x, 3 * x, 4 * x, 5 * x, sep="---")
 print()
+print(x, 2 * x, 3 * x, 4 * x, 5 * x, sep="---")

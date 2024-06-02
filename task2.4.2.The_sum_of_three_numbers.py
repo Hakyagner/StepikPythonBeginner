@@ -1,6 +1,6 @@
 print("Сумма трёх чисел")
 print()
-num1 = num2 = num3 = 0
+
 while True:
     num1 = input("Напиши первое число: ")
     if num1.isdigit():

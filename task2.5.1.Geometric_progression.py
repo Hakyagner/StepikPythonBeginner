@@ -27,3 +27,5 @@ while True:
 bn = b1 * q ** (n - 1)
 print(bn)
 print()
+
+# Вывод непонятен
