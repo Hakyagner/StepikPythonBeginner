@@ -23,6 +23,4 @@ while True:
         print("Нужно ввести целое положительное число")
         print()
 num4 = int(num1) + int(num2) + int(num3)
-print("Сумма этих чисел равна : ", num4)
-
-# Каких этих чисел?
+print(f"Сумма чисел {num1} , {num2} и {num3} равна : {num4}")
