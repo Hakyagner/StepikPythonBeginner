@@ -12,5 +12,5 @@ num_metr = num_centimetrs // 100
 print()
 print("Число -", num_centimetrs, ", в метрах -", num_metr)
 
-# Число в метрах????
+# Число - в метрах????
 # Проверяй форматирование
