@@ -16,9 +16,14 @@ while True:
     else:
         print("Нужно ввести целое положительное число")
         print()
+print()
 Schoolchildren_tangerines = tangerines // Schoolchildren
 tangerines_tangerines = Schoolchildren * Schoolchildren_tangerines   # общее кол котор. был роздан кажд шк
 Schoolchildren_Schoolchildren = tangerines - tangerines_tangerines
 print("Достанется каждому школьнику по :", Schoolchildren_tangerines)
 print("Количество оставшихся мандаринов :", Schoolchildren_Schoolchildren)
-print()
+
+# Задача решена неправильно. Например, 5 3
+# Если школьников 0, делить нельзя
+# Что достанется школьникам?
+# Знаки препинания пишутся так: слово, слово; а не так: слово : слово

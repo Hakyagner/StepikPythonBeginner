@@ -10,5 +10,7 @@ while True:
         print()
 clock = Minutes1 // 60
 Minutes2 = Minutes1 % 60
-print(Minutes1, "мин", "- это", clock, "час", Minutes2, "минут.")
 print()
+print(Minutes1, "мин", "- это", clock, "час", Minutes2, "минут.")
+
+# названия переменных начинаются с маленькой буквы
