@@ -8,9 +8,6 @@ while True:
     else:
         print("Нужно ввести целое положительное число")
         print()
-num_metr = num_centimetrs // 100
+num_metr = num_centimetrs / 100
 print()
-print("Число -", num_centimetrs, ", в метрах -", num_metr)
-
-# Число - в метрах????
-# Проверяй форматирование
+print(f"В {num_centimetrs} сантиметрах {num_metr} матра")
