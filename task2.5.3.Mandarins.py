@@ -1,9 +1,9 @@
 print("Мандарины")
 print()
 while True:
-    Schoolchildren = input("Введите число школьников: ")
-    if Schoolchildren.isdigit():
-        Schoolchildren = int(Schoolchildren)
+    schoolchildren = input("Введите число школьников: ")
+    if schoolchildren.isdigit() and schoolchildren != 0:
+        schoolchildren = int(schoolchildren)
         break
     else:
         print("Нужно ввести целое положительное число")
@@ -17,13 +17,7 @@ while True:
         print("Нужно ввести целое положительное число")
         print()
 print()
-Schoolchildren_tangerines = tangerines // Schoolchildren
-tangerines_tangerines = Schoolchildren * Schoolchildren_tangerines   # общее кол котор. был роздан кажд шк
-Schoolchildren_Schoolchildren = tangerines - tangerines_tangerines
-print("Достанется каждому школьнику по :", Schoolchildren_tangerines)
-print("Количество оставшихся мандаринов :", Schoolchildren_Schoolchildren)
-
-# Задача решена неправильно. Например, 5 3
-# Если школьников 0, делить нельзя
-# Что достанется школьникам?
-# Знаки препинания пишутся так: слово, слово; а не так: слово : слово
+schoolchildren_tangerines = tangerines // schoolchildren
+schoolchildren_schoolchildren = tangerines % schoolchildren
+print("Достанется каждому школьнику по:", schoolchildren_tangerines, "мандаринов")
+print("Количество оставшихся мандаринов в корзине:", schoolchildren_schoolchildren)
