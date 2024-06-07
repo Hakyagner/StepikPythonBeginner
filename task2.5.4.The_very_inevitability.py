@@ -8,8 +8,8 @@ while True:
     else:
         print("Нужно ввести целое положительное число")
         print()
-if population % 2 == 0:
-    print("Жителей останется на земле :", int(population / 2))
-else:
-    print("Жителей останется на земле :", int((population / 2) + 1))
 print()
+if population % 2 == 0:
+    print("Жителей останется на земле :", population // 2)
+else:
+    print("Жителей останется на земле :", (population // 2) + 1)
