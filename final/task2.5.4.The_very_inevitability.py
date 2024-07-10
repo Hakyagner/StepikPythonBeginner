@@ -1,7 +1,7 @@
 print("Сама неотвратимость")
 print()
 while True:
-    population = input("Введите сколько людей на земле: ")
+    population = input("Введите количество людей на земле: ")
     if population.isdigit():
         population = int(population)
         break

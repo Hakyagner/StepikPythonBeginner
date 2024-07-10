@@ -10,4 +10,6 @@ while True:
         print()
 num_metr = num_centimetrs / 100
 print()
-print(f"В {num_centimetrs} сантиметрах {num_metr} матра")
+print(f"{num_centimetrs} сантиметра = {num_metr} метра")
+
+# Что нужно ввести?

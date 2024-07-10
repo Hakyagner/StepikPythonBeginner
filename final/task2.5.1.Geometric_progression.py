@@ -1,7 +1,7 @@
 print("Геометрическая прогрессия")
 print()
 while True:
-    b1 = input("Введи первое число геометрической прогрессии: ")
+    b1 = input("Введи первый член геометрической прогрессии: ")
     if b1.isdigit() or (b1[0] == "-" and b1[1:].isdigit()):
         b1 = int(b1)
         break
@@ -9,7 +9,7 @@ while True:
         print("Нужно ввести целое число")
         print()
 while True:
-    q = input("Введи знаменатель прогрессии: ")
+    q = input("Введи знаменатель геометрической прогрессии: ")
     if (q.isdigit() or (q[0] == "-" and q[1:].isdigit())) and int(q) != 0:
         q = int(q)
         break
