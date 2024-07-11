@@ -6,6 +6,46 @@
 
 ### 2.2. *Команды print и input*
 
+<code>print()</code> - выводит данные на экран (в консоль)
+
+<code>print(data1, [data2], ..., [dataN], [sep=' '], [end = '\n'])</code> - полная запись<br>
+<code>data1-dataN</code> - данные, которые нужно вывести на экран.<br>
+<code>sep</code> - разделитель, который ставится между аргументами (по умолчанию равен пробелу - ' '). Необязательный параметр.<br>
+<code>end</code> - определяет, что нужно поставить в конце вывода (по умолчанию равен символу перевода строки - '\n' ). Необязательный параметр.
+
+*Примеры:*
+
+<code>print('Python')</code><br>
+<code>print('Я', 'учусь', 'программировать', 'на', 'Python!')</code><br>
+<code>print(24)</code><br>
+<code>print()</code>
+
+---
+
+<code>input()</code> - считывает данные, введённые с клавиатуры
+
+*Примеры:*
+
+<code>input()</code><br>
+<code>nput('Введи что-нибудь: ')</code>
+
+---
+
+Переменные - "области в памяти", которые мы для нашего удобства можем назвать каким-то именем.
+
+1. В имени переменной рекомендуется использовать только латинские буквы a-z, A-Z, цифры и символ нижнего подчеркивания (_);
+2. Имя переменной не может начинаться с цифры;
+3. Имя переменной не может содержать пробелы;
+4. Имя переменной по возможности должно отражать ее назначение.
+
+
+*Примеры:*
+
+<code>s = 'строка'</code><br>
+<code>n = 12</code><br>
+<code>name = input('Введи своё имя: ')</code><br>
+<code>name, surname = input('Введи своё имя: '), input('Введи свою фамилию: ')</code>
+
 | <!-- -->                                                                  | <!-- -->                                                                     | <!-- -->                                                                     |
 |---------------------------------------------------------------------------|------------------------------------------------------------------------------|------------------------------------------------------------------------------|
 | [**2.2.1.** Hello world](problems/problem2.2.1.Hello_world.md)            | [**2.2.2.** A happy sequence 1](problems/problem2.2.2.A_happy_sequence_1.md) | [**2.2.3.** A happy sequence 2](problems/problem2.2.3.A_happy_sequence_2.md) |
@@ -19,6 +59,20 @@
 | [**2.3.1.** I like Python](problems/problem2.3.1.I_like_Python.md) | [**2.3.2.** Say hello](problems/problem2.3.2.Say_hello.md) | [**2.3.3.** Custom separator](problems/problem2.3.3.Custom_separator.md) |
 
 ### 2.4. *Целочисленная арифметика. Часть 1*
+
+*Основные операции с числами:*<br>
+<code>a = 4</code><br>
+<code>b = 2</code><br>
+<code>+</code> - сложение (a + b)<br>
+<code>-</code> - вычитание (a - b)<br>
+<code>*</code> - умножение (a * b)<br>
+<code>/</code> - деление (a / b)
+
+---
+
+<code>int()</code> - преобразует строку к целому числу
+
+<code>str()</code> - преобразует число к строке
 
 | <!-- -->                                                                                   | <!-- -->                                                                                 | <!-- -->                                                                     |
 |--------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------|------------------------------------------------------------------------------|
@@ -184,3 +238,11 @@
 | [**9.1.4.** Show symbol 2](problems/problem9.1.4.Show_symbol_2.md)                   | [**9.1.5.** Full name](problems/problem9.1.5.Full_name.md)                     | [**9.1.6.** Number 1](problems/problem9.1.6.Number_1.md)                       |
 | [**9.1.7.** Number 2](problems/problem9.1.7.Number_2.md)                             | [**9.1.8.** How many times?](problems/problem9.1.8.How_many_times.md)          | [**9.1.9.** Identical neighbors](problems/problem9.1.9.Identical_neighbors.md) |
 | [**9.1.10.** Vowels and consonants](problems/problem9.1.10.Vowels_and_consonants.md) | [**9.1.11.** Decimal to Binary**](problems/problem9.1.11.Decimal_to_Binary.md) |                                                                                |
+
+### 9.2. *Срезы*
+
+| <!-- -->                                                                             | <!-- -->                                                       | <!-- -->                                                               |
+|--------------------------------------------------------------------------------------|----------------------------------------------------------------|------------------------------------------------------------------------|
+| [**9.2.1.** Substring 1](problems/problem9.2.1.Substring_1.md)                       | [**9.2.2.** Substring 2](problems/problem9.2.2.Substring_2.md) | [**9.2.3.** Substring 3](problems/problem9.2.3.Substring_3.md)         |
+| [**9.2.4.** Substring 4](problems/problem9.2.4.Substring_4.md)                       | [**9.2.5.** Palindrome](problems/problem9.2.5.Palindrome.md)   | [**9.2.6.** Making slices 1](problems/problem9.2.6.Making_slices_1.md) |
+| [**9.2.7.** Making slices 2](problems/problem9.2.7.Making_slices_2.md)               | [**9.2.8.** Two halves](problems/problem9.2.8.Two_halves.md)   |                                                                        |
