@@ -6,4 +6,4 @@ string = input("Введите любую строку: ")
 if "синий" in string:
     print(f"В строке {string} есть подстрока синий.")
 else:
-    print(f"В строке {string} нет подстрока синий.")
+    print(f"В строке {string} нет подстроки синий.")
