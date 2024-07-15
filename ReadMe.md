@@ -53,6 +53,8 @@
 
 ### 4.1. *Выбор из двух*
 
+[Теория](problems/theory.md)
+
 | <!-- -->                                                                                   | <!-- -->                                                                                 | <!-- -->                                                                               |
 |--------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------|
 | [**4.1.1.** Guess the word](problems/problem4.1.1.Guess_the_word.md)                       | [**4.1.2.** Same numbers](problems/problem4.1.2.Same_numbers.md)                         | [**4.1.3.** Sum of even numbers](problems/problem4.1.3.Sum_of_even_numbers.md)         |
@@ -61,6 +63,8 @@
 | [**4.1.10.** Smallest of four numbers](problems/problem4.1.10.Smallest_of_four_numbers.md) | [**4.1.11.** Age group](problems/problem4.1.11.Age_group.md)                             | [**4.1.12.** Only plus](problems/problem4.1.12.Only_plus.md)                           |
 
 ### 4.2. *Логические операции*
+
+[Теория](problems/theory.md)
 
 | <!-- -->                                                                     | <!-- -->                                                                           | <!-- -->                                                                     |
 |------------------------------------------------------------------------------|------------------------------------------------------------------------------------|------------------------------------------------------------------------------|
@@ -198,3 +202,10 @@
 | [**9.2.1.** Substring 1](problems/problem9.2.1.Substring_1.md)                       | [**9.2.2.** Substring 2](problems/problem9.2.2.Substring_2.md) | [**9.2.3.** Substring 3](problems/problem9.2.3.Substring_3.md)         |
 | [**9.2.4.** Substring 4](problems/problem9.2.4.Substring_4.md)                       | [**9.2.5.** Palindrome](problems/problem9.2.5.Palindrome.md)   | [**9.2.6.** Making slices 1](problems/problem9.2.6.Making_slices_1.md) |
 | [**9.2.7.** Making slices 2](problems/problem9.2.7.Making_slices_2.md)               | [**9.2.8.** Two halves](problems/problem9.2.8.Two_halves.md)   |                                                                        |
+
+### 9.3. *Методы строк. Часть 1*
+
+| <!-- -->                                                           | <!-- -->                                                   | <!-- -->                                                     |
+|--------------------------------------------------------------------|------------------------------------------------------------|--------------------------------------------------------------|
+| [**9.3.1.** Substring 1](problems/problem9.3.1.Capital_letters.md) | [**9.3.2.** sWAP cASE](problems/problem9.3.2.sWAP_cASE.md) | [**9.3.3.** Nice shade](problems/problem9.3.3.Nice_shade.md) |
+| [**9.3.4.** Lower case](problems/problem9.3.4.Lower_case.md)       |                                                            |                                                              |
