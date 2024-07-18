@@ -2,7 +2,7 @@ print("Цвета колеса рулетки")
 print()
 
 while True:
-    number = input('Введи номер кармана: ')
+    number = input('Введи номер кармана рулетки: ')
     if number.isdigit() or (number[0] == "-" and number[1:].isdigit()):
         number = int(number)
         break
@@ -22,3 +22,5 @@ elif 11 <= number <= 18 or 29 <= number <= 36:
         print(f"Карман с номером {number} является чёрным.")
 elif number == 0:
     print(f"Карман с номером {number} является зелёным.")
+
+# Число каким должно быть?
