@@ -3,7 +3,7 @@ print()
 
 while True:
     month = input('Введи номер месяца: ')
-    if month.isdigit() and int(month) > 0:
+    if month.isdigit() and 13 > int(month) > 0:
         month = int(month)
         break
     else:
