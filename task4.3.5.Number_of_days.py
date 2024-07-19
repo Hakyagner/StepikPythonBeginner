@@ -15,3 +15,5 @@ elif month == 4 or month == 6 or month == 9 or month == 11:
     print(f"В месяце под номером {month} - 30 дней")
 else:
     print(f"В месяце под номером {month} - 31 день")
+
+# Сколько месяцев в году?
