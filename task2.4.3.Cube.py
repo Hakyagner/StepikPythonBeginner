@@ -1,6 +1,8 @@
 import ifnumber
+
 print("Куб")
 print()
+
 while True:
     a = input("Напишите длину ребра куба: ")
     if_number = ifnumber.if_number(a)
@@ -22,4 +24,4 @@ while True:
         print("Нужно ввести положительное число")
         print()
 
-# компактнее
+# у тебя повторяется один и тот же код 2 раза. Сделай так, чтобы он не повторялся

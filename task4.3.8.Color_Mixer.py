@@ -19,4 +19,5 @@ elif (color1.lower() == "жёлтый" and color2.lower() == "синий") or (c
 elif color1 == color2:
     print(f"Из цветов {color1} и {color2} получается - {color1}")
 
-# Переделать с учетом функций для строк
+# Оптимизируй, чтобы каждый print был уникальным
+# Внимательно с and/or
