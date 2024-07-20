@@ -12,6 +12,8 @@
 <a href="#h63">6.3. Модуль math</a><br>
 <a href="#h71">7.1. Цикл for</a><br>
 <a href="#h72">7.2. Цикл for: функция range</a><br>
+<a href="#h73">7.3. Частые сценарии</a><br>
+<a href="#h74">7.4. Цикл while</a><br>
 
 ## 2. Ввод-вывод данных
 
@@ -239,6 +241,16 @@
 
 Переменная цикла последовательно принимает значения, указанные в функции range().
 
+*Пример:*
+
+Код:
+<pre><code>
+for i in range(10):
+    print(i)
+</code></pre>
+
+нужно читать так: для i, последовательно принимающего значения в диапазоне (0; 10), вывести на экран i.
+
 ### <span id="h72">7.2. *Цикл for: функция range*</span>
 
 Функция <code>range()</code> генерирует последовательность чисел.
@@ -252,6 +264,131 @@
 <code>range(3, 10)  # 3, 4, 5, 6, 7, 8, 9</code><br>
 <code>range(3, 10, 2)  # 3, 5, 7, 9</code><br>
 <code>range(10, -10, -3)  # 10, 7, 4, 1, -2, -5, -8</code>
+
+### <span id="h73">7.3. *Частые сценарии*</span>
+
+#### Подсчет количества
+
+<pre><code>
+    counter = 0
+    for _ in range(10):
+        num = int(input())
+        if num > 10:
+            counter = counter + 1
+    
+    print('Было введено', counter, 'чисел, больших 10.')
+</code></pre>
+
+#### Вычисление суммы
+
+<pre><code>
+    total = 0
+    for _ in range(10):
+        num = int(input())
+        if num > 10:
+            total = total + num
+    
+    print('Сумма чисел больших 10 равна',  total)
+</code></pre>
+
+#### Вычисление произведения
+
+<pre><code>
+    total = 0
+    for _ in range(10):
+        num = int(input())
+        if num > 10:
+            total = total * num
+    
+    print('Произведение чисел больших 10 равно',  total)
+</code></pre>
+
+#### Обмен значений переменных
+
+Универсальный способ:
+<pre><code>
+temp = x
+x = y
+y = temp
+</code></pre>
+
+На Python:<br>
+<code>x, y = y, x</code><br>
+<code>a, b, c, d = d, c, a, b</code>
+
+#### Сигнальные метки
+
+<pre><code>
+num = int(input())
+flag = True
+
+for i in range(2, num):
+    if num % i == 0:
+        flag = False
+
+if num == 1:
+    print('Это единица, она не простая и не составная') 
+elif flag == True:
+    print('Число простое')
+else:
+    print('Число составное')
+</code></pre>
+
+#### Максимум
+
+<pre><code>
+largest = 0
+for _ in range(10):
+    num = int(input())    
+    if num > largest:
+        largest = num
+
+print('Наибольшее число равно', largest) 
+</code></pre>
+
+#### Минимум
+
+<pre><code>
+smallest = 0
+for _ in range(10):
+    num = int(input())    
+    if num < smallest:
+        smallest = num
+
+print('Наименьшее число равно', smallest) 
+</code></pre>
+
+#### Расширенные операторы присваивания
+
+<code>a += b  # То же, что и a = a + b</code>
+
+### <span id="h74">7.4. *Цикл while*</span>
+
+<pre>
+    while <условие>:
+        <блок кода>
+</pre>
+
+Блок кода выполняется до тех пор, пока условие == True.
+
+*Пример:*
+
+Код:
+
+<pre><code>
+i = 0
+while i < 10:
+    print(i)
+    i += 1
+</code></pre>
+
+можно читать так: пока i меньше 10, вывести на экран i, и прибавить к i единицу.
+
+### <span id="h76">7.6. *break, continue и else*</span>
+
+<code>break</code> - прерывает ближайший цикл for или while.
+
+<code>continue</code> - позволяет перейти к следующей итерации цикла for или while до завершения всех команд в теле цикла.
 
 <br>
 
