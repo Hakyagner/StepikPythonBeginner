@@ -67,4 +67,4 @@ while True:
 maximum = max(num1, num2, num3, num4, num5)
 minimum = min(num1, num2, num3, num4, num5)
 
-print(f"Из чисел {num1}, {num2}, {num3}, {num4} и  {num5} максимальное - {maximum}, минимальное - {minimum}.")
+print(f"Из чисел {num1}, {num2}, {num3}, {num4} и {num5} максимальное - {maximum}, минимальное - {minimum}.")
