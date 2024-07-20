@@ -1,12 +1,19 @@
+import ifnumber
 print("Dog age")
 print()
 
 while True:
-    dog_age = float("Введите возраст собаки: ")
-    if dog_age > 0:
+    dog_age = input("Введите возраст собаки: ")
+    if_number = ifnumber.if_number(dog_age)
+    if if_number == 'int' and int(dog_age) > 0:
+        dog_age = int(dog_age)
+        print()
+        break
+    elif if_number == 'float' and int(dog_age) > 0:
+        dog_age = float(dog_age)
         break
     else:
-        print("Возраст собаки должен быть больше 0.")
+        print("Нужно ввести положительное число.")
         print()
 
 if 1 <= dog_age <= 2:

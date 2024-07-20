@@ -8,15 +8,9 @@ while True:
         break
     else:
         print("Нужно ввести целое число")
-if num % 2 != 0:
-    print("YES")
-elif num % 2 == 0 and 2 <= num <= 5:
-    print("NO")
-elif num % 2 == 0 and 6 <= num <= 20:
-    print("YES")
-elif num % 2 == 0 and num > 20:
-    print("NO")
+if num % 2 != 0 or 6 <= num <= 20:
+    print('YES')
 else:
-    print(f"Ошибка. Число {num} не соответствует ни одному из требований.")
+    print('NO')
 
 # Оптимизируй вывод

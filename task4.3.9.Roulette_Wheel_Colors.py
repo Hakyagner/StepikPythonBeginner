@@ -7,7 +7,7 @@ while True:
         number = int(number)
         break
     else:
-        print("Нужно ввести целое число")
+        print("Нужно ввести целое положительное число")
 if 0 > number or 36 < number:
     print(f"Ошибка. Число {number} не лежит в диапазоне (от 0 до 36).")
 elif 1 <= number <= 10 or 19 <= number <= 28:

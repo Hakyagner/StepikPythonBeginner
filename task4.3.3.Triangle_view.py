@@ -2,21 +2,21 @@ print("Вид треугольника")
 print()
 
 while True:
-    a = input('Введи целое число: ')
+    a = input('Введите длину первой стороны треугольника: ')
     if a.isdigit() and int(a) > 0:
         a = int(a)
         break
     else:
         print("Нужно ввести целое положительное число")
 while True:
-    b = input('Введи целое число: ')
+    b = input('Введите длину второй стороны треугольника: ')
     if b.isdigit() and int(b) > 0:
         b = int(b)
         break
     else:
         print("Нужно ввести целое положительное число")
 while True:
-    c = input('Введи целое число: ')
+    c = input('Введите длину третьей стороны треугольника: ')
     if c.isdigit() and int(c) > 0:
         c = int(c)
         break

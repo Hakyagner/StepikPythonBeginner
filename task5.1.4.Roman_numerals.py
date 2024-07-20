@@ -2,12 +2,12 @@ print("Римские цифры")
 print()
 
 while True:
-    num = input('Введите целое число: ')
-    if num.isdigit() or (num[0] == "-" and num[1:].isdigit()):
+    num = input('Введите целое положиетльное число: ')
+    if num.isdigit():
         num = int(num)
         break
     else:
-        print("Нужно ввести целое число")
+        print("Нужно ввести целое положительное число")
 if 1 <= num <= 3:
     print(f"Римская цифра числа {num} - {num * "I"}")
 elif 6 <= num <= 8:
