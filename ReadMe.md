@@ -202,6 +202,8 @@
 
 ### 9.1. *Индексация*
 
+[Теория](problems/theory.md)
+
 | <!-- -->                                                                             | <!-- -->                                                                       | <!-- -->                                                                       |
 |--------------------------------------------------------------------------------------|--------------------------------------------------------------------------------|--------------------------------------------------------------------------------|
 | [**9.1.1.** Show symbol 1](problems/problem9.1.1.Show_symbol_1.md)                   | [**9.1.2.** Show symbol 2](problems/problem9.1.2.Show_symbol_2.md)             | [**9.1.3.** In column 1](problems/problem9.1.3.In_column_1.md)                 |
@@ -211,6 +213,8 @@
 
 ### 9.2. *Срезы*
 
+[Теория](problems/theory.md)
+
 | <!-- -->                                                                             | <!-- -->                                                       | <!-- -->                                                               |
 |--------------------------------------------------------------------------------------|----------------------------------------------------------------|------------------------------------------------------------------------|
 | [**9.2.1.** Substring 1](problems/problem9.2.1.Substring_1.md)                       | [**9.2.2.** Substring 2](problems/problem9.2.2.Substring_2.md) | [**9.2.3.** Substring 3](problems/problem9.2.3.Substring_3.md)         |
@@ -219,7 +223,19 @@
 
 ### 9.3. *Методы строк. Часть 1*
 
+[Теория](problems/theory.md)
+
 | <!-- -->                                                           | <!-- -->                                                   | <!-- -->                                                     |
 |--------------------------------------------------------------------|------------------------------------------------------------|--------------------------------------------------------------|
 | [**9.3.1.** Substring 1](problems/problem9.3.1.Capital_letters.md) | [**9.3.2.** sWAP cASE](problems/problem9.3.2.sWAP_cASE.md) | [**9.3.3.** Nice shade](problems/problem9.3.3.Nice_shade.md) |
 | [**9.3.4.** Lower case](problems/problem9.3.4.Lower_case.md)       |                                                            |                                                              |
+
+### 9.4. *Методы строк. Часть 2*
+
+[Теория](problems/theory.md)
+
+| <!-- -->                                                                         | <!-- -->                                                                     | <!-- -->                                                                            |
+|----------------------------------------------------------------------------------|------------------------------------------------------------------------------|-------------------------------------------------------------------------------------|
+| [**9.4.1.** Number of words](problems/problem9.4.1.Number_of_words.md)           | [**9.4.2.** Minute of Genetics](problems/problem9.4.2.Minute_of_Genetics.md) | [**9.4.3.** Very strange things](problems/problem9.4.3.Very_strange_things.md)      |
+| [**9.4.4.** Number of digits](problems/problem9.4.4.Number_of_digits.md)         | [**9.4.5.** .com or .ru.md](problems/problem9.4.5..com_or_.ru.md)            | [**9.4.6.** Most frequent symbol.md](problems/problem9.4.6.Most_frequent_symbol.md) |
+| [**9.4.7.** First and last entry](problems/problem9.4.7.First_and_last_entry.md) | [**9.4.8.** Removing a fragment](problems/problem9.4.8.Removing_a_fragment)  |                                                                                     |
