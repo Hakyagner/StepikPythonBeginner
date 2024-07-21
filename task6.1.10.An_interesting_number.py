@@ -34,3 +34,5 @@ elif (minimum == abc[1] and maximum == abc[0]) or (minimum == abc[0] and maximum
         print(f"Число {abc} не является интересное.")
 else:
     print("Ошибка код введён не коректно.")
+
+# Какой вопрос в задаче?
