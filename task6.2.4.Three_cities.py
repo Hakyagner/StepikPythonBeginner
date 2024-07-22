@@ -25,3 +25,5 @@ maxsimum = max(len(city1), len(city2), len(city3))
 minimum = min(len(city1), len(city2), len(city3))
 
 print(f"Из названий трёх годов -  {city1, city2, city3} самое длиное название у города - {maxsimum} самое короткое название у города - {minimum}.")
+
+# Неправильно

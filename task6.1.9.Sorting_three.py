@@ -52,3 +52,6 @@ elif (minimum == num2 and maximum == num3) or (minimum == num3 and maximum == nu
     print(maximum, num1, minimum)
 elif (minimum == num2 and maximum == num1) or (minimum == num1 and maximum == num2):
     print(maximum, num3, minimum)
+
+# Вывод не оптимизирован
+# Для более простого решения: что будет, если из суммы всех чисел вычесть максимально и минимальное?
