@@ -3,7 +3,7 @@ print("Куб")
 print()
 
 while True:
-    a = input('Введи число: ')
+    a = input('Введи длину ребра: ')
     if_number = ifnumber.if_number(a)
     if if_number == 'int' and int(a) != 0:
         a = int(a)
@@ -19,5 +19,3 @@ v = a ** 3
 print(f"Объём куба = {v}.")
 s = 6 * a ** 2
 print(f"Площадь полной поверхности = {s}.")
-
-# ЧТО нужно ввести?
