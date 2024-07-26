@@ -3,7 +3,7 @@ print("Куб")
 print()
 
 while True:
-    a = input('Введи длину ребра: ')
+    a = input('Введи длину ребра куба: ')
     if_number = ifnumber.if_number(a)
     if if_number == 'int' and int(a) > 0:
         a = int(a)
