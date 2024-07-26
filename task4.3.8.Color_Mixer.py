@@ -1,14 +1,13 @@
 print("Цветовой микшер")
 print()
 
-color1 = input("Введите название первого цвета (красный, синий или жёлтый): ")
-color2 = input("Введите название второго цвета (красный, синий или жёлтый): ")
+color3 = input("Введите название первого цвета (красный, синий или жёлтый): ")
+color4 = input("Введите название второго цвета (красный, синий или жёлтый): ")
 
-if color1[1] == "e":
-    color1[1] = "ё"
-if color2[1] == "е":
-    color2[1] = "ё"
-if (color1.lower() != "красный" and color1.lower() != "синий" and color1.lower() != "жёлтый") or (color2.lower() != "красный" and color2.lower() != "синий" and color2.lower() != "жёлтый"):
+color1 = color3.replace("e", "ё")
+color2 = color4.replace("e", "ё")
+
+if (color1.lower() != "красный" or color1.lower() != "синий" or color1.lower() != "жёлтый") or (color2.lower() != "красный" or color2.lower() != "синий" or color2.lower() != "жёлтый"):
     print("Ошибка! Я такого цвета не знаю.")
 else:
     if color1.lower() == "красный" and color2.lower() == "синий":
