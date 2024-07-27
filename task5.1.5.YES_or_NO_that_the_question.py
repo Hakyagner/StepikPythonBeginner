@@ -3,7 +3,7 @@ print()
 
 while True:
     num = input('Введите целое положительное число: ')
-    if num.isdigit() or (num[0] == "-" and num[1:].isdigit()):
+    if num.isdigit() and int(num) > 0:
         num = int(num)
         break
     else:
@@ -13,4 +13,4 @@ if num % 2 != 0 or 6 <= num <= 20:
 else:
     print('NO')
 
-# Число какое должно быть???
+# done
