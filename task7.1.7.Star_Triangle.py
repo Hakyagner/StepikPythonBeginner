@@ -17,3 +17,6 @@ while True:
 
 for i in range(n):
     print("*" * (n - i))
+
+# 11 - это для примера
+# Неправильно

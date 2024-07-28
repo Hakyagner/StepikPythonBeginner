@@ -20,3 +20,5 @@ print(num)
 
 for i in range(num):
     print(num)
+
+# Предложение по-русски в input

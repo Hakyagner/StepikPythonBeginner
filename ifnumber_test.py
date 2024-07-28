@@ -12,6 +12,7 @@ while True:
         break
     elif if_number == 'float':
         num = float(num)
+        print()
         break
     else:
         print('Данные введены некорректно! Нужно ввести число')

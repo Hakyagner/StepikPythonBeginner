@@ -2,12 +2,12 @@ print("Римские цифры")
 print()
 
 while True:
-    num = input('Введите целое число: ')
+    num = input('Введите целое число от 1 до 10: ')
     if num.isdigit():
         num = int(num)
         break
     else:
-        print("Нужно ввести целое число")
+        print("Нужно ввести целое число от 1 до 10")
 if 1 <= num <= 3:
     print(f"Римская цифра числа {num} - {num * "I"}")
 elif 6 <= num <= 8:
@@ -30,4 +30,4 @@ elif num == 5 or num == 4:
 else:
     print("Ошибка! Число не находится в диапазоне от 1 до 10.")
 
-# done
+# твои if в elif делают бессмысленными elif. Оптимизируй

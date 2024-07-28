@@ -1,5 +1,6 @@
 import ifnumber
 from math import *
+
 print("Правильный многоугольник")
 print()
 
@@ -16,7 +17,7 @@ while True:
         print('Данные введены некорректно! Нужно ввести число')
     print()
 while True:
-    n = input('Введи количество сторон: ')
+    n = input('Введи количество сторон правильного многоугольника: ')
     if_number = ifnumber.if_number(n)
     if if_number == 'int':
         n = int(n)
@@ -31,3 +32,6 @@ while True:
 s = (n * a ** 2) / (4 * tan(pi / n))
 
 print(f"Площадб правилного прямоугольника равна {s}.")
+
+# импорт только нужного
+# русский язык

@@ -1,4 +1,5 @@
 import ifnumber
+
 print("Квадрат числа")
 print()
 
@@ -17,3 +18,5 @@ while True:
 
 for i in range(n + 1):
     print(f"Квадрат числа {i} равен {i ** 2}.")
+
+# Какое число нужно ввести?

@@ -1,10 +1,11 @@
 import ifnumber
 from math import pi
+
 print("Площадь и длина")
 print()
 
 while True:
-    r = input("Введите значение радиоса: ")
+    r = input("Введите значение радиуса: ")
     if_number = ifnumber.if_number(r)
     if if_number == 'int':
         r = int(r)
@@ -18,3 +19,5 @@ while True:
 
 print(f"Площадь круга окружности по заданному радиусу {r} равна {pi * r ** 2}.")
 print(f"Длина круга окружности по заданному радиусу {r} ровна {2 * pi * r}.")
+
+# Сравни свой ответ с условием задачи

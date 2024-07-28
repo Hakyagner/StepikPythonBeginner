@@ -1,5 +1,6 @@
 import ifnumber
 from math import sqrt
+
 print("Средние значения")
 print()
 

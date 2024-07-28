@@ -1,5 +1,6 @@
 import ifnumber
 from math import *
+
 print("Пол и потолок")
 print()
 
@@ -20,3 +21,7 @@ r = radians(x)
 total = sin(r) + cos(r) + pow(tan(r), 2)
 
 print(f"Значение [{x}] + [{x}] равна {total}.")
+
+# импортируй только те функции, которые используешь
+# Что нужно ввести???
+# Что за бред?

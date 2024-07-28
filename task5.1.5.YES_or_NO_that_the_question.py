@@ -9,8 +9,8 @@ while True:
     else:
         print("Нужно ввести целое положительное число")
 if num % 2 != 0 or 6 <= num <= 20:
-    print('YES')
+    print(f'Число {num} мне подходит')
 else:
-    print('NO')
+    print(f'Число {num} мне не подходит')
 
-# done
+# Неправильно

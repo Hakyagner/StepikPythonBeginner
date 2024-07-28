@@ -9,14 +9,12 @@ color2 = color2.lower().replace("е", "ё")
 
 if (color1 == "красный" or color1 == "синий" or color1 == "жёлтый") or (color2 == "красный" or color2 == "синий" or color2 == "жёлтый"):
     if color1 == "красный" and color2 == "синий":
-        print(f"При смешивании цветов {color1} и {color2} получается - фиолетовый")
+        print(f"При смешивании цветов {color1} и {color2} получается фиолетовый цвет.")
     elif (color1 == "красный" and color2 == "жёлтый") or (color2 == "красный" and color1 == "жёлтый"):
-        print(f"При смешивании цветов {color1} и {color2} получается - оранжевый")
+        print(f"При смешивании цветов {color1} и {color2} получается оранжевый цвет.")
     elif (color1 == "жёлтый" and color2 == "синий") or (color2 == "жёлтый" and color1 == "синий"):
-        print(f"При смешивании цветов {color1} и {color2} получается - зелёный")
+        print(f"При смешивании цветов {color1} и {color2} получается зелёный цвет.")
     elif color1 == color2:
         print(f"При смешивании цветов {color1} и {color2} получается - {color1}")
 else:
     print("Ошибка! Я такого цвета не знаю.")
-
-# done
