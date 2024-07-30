@@ -1,13 +1,16 @@
+import ifnumber
 print("Обратное число")
 print()
 
 while True:
-    num = input("Введите целое положительное число: ")
-    if num.isdigit() and int(num) > 0:
-        num = int(num)
+    num = input("Введите положительное число: ")
+    if_number = ifnumber.if_number(num)
+    if if_number == 'float':
+        num = float(num)
+        print()
         break
     else:
-        print("Нужно ввести целое положительное число")
+        print("Нужно ввести положительное число")
         print()
 
 if num == 0:
@@ -15,4 +18,4 @@ if num == 0:
 else:
     print(f"Обратное числу {num} = {1 / num}.")
 
-# Какое число нужно ввести?
+# done

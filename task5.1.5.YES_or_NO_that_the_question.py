@@ -1,16 +1,25 @@
+import ifnumber
 print("YES or NO вот в чем вопрос")
 print()
 
 while True:
-    num = input('Введите целое положительное число: ')
-    if num.isdigit() and int(num) > 0:
+    num = input('Введи целое положительное число: ')
+    if_number = ifnumber.if_number(num)
+    if if_number == 'int' and int(num) > 0:
         num = int(num)
+        print()
+        break
+    elif if_number == 'float':
+        num = float(num)
+        print()
         break
     else:
-        print("Нужно ввести целое положительное число")
-if num % 2 != 0 or 6 <= num <= 20:
+        print('Данные введены некорректно! Нужно ввести целое положительное число')
+    print()
+
+if num % 2 != 0 or (num % 2 == 0 and num >= 6 and num <= 20):
     print(f'Число {num} мне подходит')
-else:
+elif (num % 2 == 0 and num >= 2 and num <= 5) or (num % 2 == 0 and num > 20):
     print(f'Число {num} мне не подходит')
 
-# Неправильно
+# done

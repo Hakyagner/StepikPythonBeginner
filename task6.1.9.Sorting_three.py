@@ -42,16 +42,12 @@ while True:
 maximum = max(num1, num2, num3)
 minimum = min(num1, num2, num3)
 
-if minimum == num3 and maximum == num1:
+if (minimum == num3 and maximum == num1) or (minimum == num1 and maximum == num3):
     print(maximum, num2, minimum)
-elif minimum == num1 and maximum == num3:
-    print(maximum, num2, minimum)
-elif minimum == num2 and maximum == num3:
-    print(maximum, num1, minimum)
-elif (minimum == num2 and maximum == num3) or (minimum == num3 and maximum == num2):
+elif (minimum == num2 and maximum == num3) or ((minimum == num2 and maximum == num3) or (minimum == num3 and maximum == num2)):
     print(maximum, num1, minimum)
 elif (minimum == num2 and maximum == num1) or (minimum == num1 and maximum == num2):
     print(maximum, num3, minimum)
 
-# Вывод не оптимизирован
+# не надо!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 # Для более простого решения: что будет, если из суммы всех чисел вычесть максимально и минимальное?
