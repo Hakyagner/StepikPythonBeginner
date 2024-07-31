@@ -3,7 +3,7 @@ print("Манхэттенское расстояние")
 print()
 
 while True:
-    p1 = int(input('Введи число: '))
+    p1 = int(input('Введи растояние на плоскости манхэттенско: '))
     if_number = ifnumber.if_number(p1)
     if if_number == 'int':
         p1 = int(p1)
@@ -15,7 +15,7 @@ while True:
         print('Данные введены некорректно! Нужно ввести число')
     print()
 while True:
-    p2 = int(input('Введи число: '))
+    p2 = int(input('Введи растояние на плоскости манхэттенско: '))
     if_number = ifnumber.if_number(p2)
     if if_number == 'int':
         p2 = int(p2)
@@ -27,7 +27,7 @@ while True:
         print('Данные введены некорректно! Нужно ввести число')
     print()
 while True:
-    q1 = int(input('Введи число: '))
+    q1 = int(input('Введи растояние на плоскости манхэттенско: '))
     if_number = ifnumber.if_number(q1)
     if if_number == 'int':
         q1 = int(q1)
@@ -39,7 +39,7 @@ while True:
         print('Данные введены некорректно! Нужно ввести число')
     print()
 while True:
-    q2 = int(input('Введи число: '))
+    q2 = int(input('Введи растояние на плоскости манхэттенско: '))
     if_number = ifnumber.if_number(q2)
     if if_number == 'int':
         q2 = int(q2)

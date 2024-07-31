@@ -39,14 +39,10 @@ while True:
         print('Данные введены некорректно! Нужно ввести число')
     print()
 
-maximum = max(num1, num2, num3)
-minimum = min(num1, num2, num3)
+max = max(num1, num2, num3)
+min = min(num1, num2, num3)
+print(max)
+print((num1 + num2 + num3) - (max + min))
+print(min)
 
-if (minimum == num3 and maximum == num1) or (minimum == num1 and maximum == num3):
-    print(maximum, num2, minimum)
-elif (minimum == num2 and maximum == num3) or ((minimum == num2 and maximum == num3) or (minimum == num3 and maximum == num2)):
-    print(maximum, num1, minimum)
-elif (minimum == num2 and maximum == num1) or (minimum == num1 and maximum == num2):
-    print(maximum, num3, minimum)
-
-# Для более простого решения: что будет, если из суммы всех чисел вычесть максимальное и минимальное? +
+# done

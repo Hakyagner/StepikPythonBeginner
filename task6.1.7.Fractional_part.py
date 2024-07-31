@@ -5,11 +5,11 @@ print()
 while True:
     num = input('Введи целое положительное число: ')
     if_number = ifnumber.if_number(num)
-    if if_number == 'int':
+    if if_number == 'int' and int(num) > 0:
         num = int(num)
         print()
         break
-    elif if_number == 'float':
+    elif if_number == 'float' and int(num) > 0:
         num = float(num)
         break
     else:
@@ -20,4 +20,4 @@ total = num % 1
 
 print(f"Дробная часть числа {num} равна {total}.")
 
-# проверка числа
+# done

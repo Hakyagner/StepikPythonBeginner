@@ -5,11 +5,11 @@ print()
 while True:
     num = input('Введи целое положительное число: ')
     if_number = ifnumber.if_number(num)
-    if if_number == 'int':
+    if if_number == 'int' and int(num) > 0:
         num = int(num)
         print()
         break
-    elif if_number == 'float':
+    elif if_number == 'float' and int(num) > 0:
         num = float(num)
         break
     else:
@@ -18,4 +18,4 @@ while True:
 
 print(f"Первая цифра после точки числа {num} - {num * 10 % 10}.")
 
-# Если ты написала 'Введи целое положительное число: ', это не значит, что нельзя ввести другое. Проверка должна быть правильная
+# done
