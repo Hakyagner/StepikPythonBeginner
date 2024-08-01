@@ -1,6 +1,6 @@
 import ifnumber
 
-print("Интересное_число")
+print("Интересное число")
 print()
 
 while True:
