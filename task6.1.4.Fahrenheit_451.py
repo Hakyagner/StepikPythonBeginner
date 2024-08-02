@@ -3,13 +3,13 @@ print("451 градус по Фаренгейту")
 print()
 
 while True:
-    f = float("Введите температуру(число) по шкале Цельско: ")
+    f = input("Введите температуру(число) по шкале Цельсия: ")
     if_number = ifnumber.if_number(f)
-    if if_number == 'int' or (f[0] == "-" and f[1:].isdigit()) and int(f) > 0:
+    if if_number == 'int':
         f = int(f)
         print()
         break
-    elif if_number == 'float' and int(f) > 0:
+    elif if_number == 'float':
         f = float(f)
         break
     else:
@@ -18,7 +18,6 @@ while True:
 
 tc = 5 / 9 * (f - 32)
 
-print(f"Температура по шкале Цельска {f} соответствует значению градусов по {tc} щколе Фаренгейта")
+print(f"{f} deg C = {tc} deg F")
 
-# Че за бред с проверкой числа?
-# Для того, чтобы грамотно писать по-русски, надо как минимум внимательно читать задачу.
+# done

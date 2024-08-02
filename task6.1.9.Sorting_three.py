@@ -39,10 +39,10 @@ while True:
         print('Данные введены некорректно! Нужно ввести число')
     print()
 
-max = max(num1, num2, num3)
-min = min(num1, num2, num3)
-print(max)
-print((num1 + num2 + num3) - (max + min))
-print(min)
+maxsim = max(num1, num2, num3)
+minimum = min(num1, num2, num3)
+print(maxsim)
+print((num1 + num2 + num3) - (maxsim + minimum))
+print(minimum)
 
-# нельзя называть переменные зарезервированными словами. Тем более программа подсказывает
+# done
