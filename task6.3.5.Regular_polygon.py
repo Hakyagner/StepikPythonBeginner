@@ -1,5 +1,5 @@
 import ifnumber
-from math import *
+from math import tan, pi
 
 print("Правильный многоугольник")
 print()
@@ -31,7 +31,6 @@ while True:
 
 s = (n * a ** 2) / (4 * tan(pi / n))
 
-print(f"Площадб правилного прямоугольника равна {s}.")
+print(f"Площадь правильного прямоугольника равна {s}.")
 
-# импорт только нужного
-# русский язык
+# done
