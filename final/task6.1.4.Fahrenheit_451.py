@@ -18,6 +18,4 @@ while True:
 
 tc = 5 / 9 * (f - 32)
 
-print(f"{f} deg C = {tc} deg F")
-
-# done
+print(f"{f}°C = {tc}°F")

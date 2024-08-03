@@ -44,5 +44,3 @@ minimum = min(num1, num2, num3)
 print(maxsim)
 print((num1 + num2 + num3) - (maxsim + minimum))
 print(minimum)
-
-# done

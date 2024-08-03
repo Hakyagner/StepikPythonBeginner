@@ -18,5 +18,3 @@ while True:
     print()
 
 print(f"Первая цифра после точки у числа {num} равна {num * 10 % 10}.")
-
-# done
