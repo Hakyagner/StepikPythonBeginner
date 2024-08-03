@@ -17,7 +17,7 @@ total = 0
 
 for i in range(n):
     while True:
-        n_n = input('Введи число: ')
+        n_n = input('Введи целое число: ')
         if_number = ifnumber.if_number(n_n)
         if if_number == 'int':
             n_n = int(n_n)
@@ -27,3 +27,5 @@ for i in range(n):
     total += n_n
 
 print(total)
+
+# Подумай, что такое n. Что нужно спросить у пользователя? И каким должно быть n?
