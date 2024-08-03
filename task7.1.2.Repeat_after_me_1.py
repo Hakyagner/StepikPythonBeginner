@@ -5,7 +5,7 @@ print()
 string = input("Введите строку: ")
 
 while True:
-    num = input('Введите сколько раз надо будет повтарить вашу введёную строку: ')
+    num = input('Введите сколько раз надо будет повторить вашу видённую строку: ')
     if_number = ifnumber.if_number(num)
     if if_number == 'int':
         num = int(num)
@@ -21,4 +21,4 @@ print(num)
 for i in range(num):
     print(num)
 
-# Предложение по-русски в input
+# done

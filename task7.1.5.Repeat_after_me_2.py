@@ -4,6 +4,6 @@ print()
 string = input("Введите строку: ")
 
 for i in range(10):
-    print(i + 1, string)
+    print(i, string)
 
-# Неправильно
+# done

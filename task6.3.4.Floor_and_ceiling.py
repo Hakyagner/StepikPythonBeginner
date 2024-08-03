@@ -1,20 +1,20 @@
 import ifnumber
-from math import *
+from math import sin, tan, cos, radians
 
 print("Пол и потолок")
 print()
 
 while True:
-    x = input('Введите вещественное число в градусах: ')
+    x = input('Введите вещественное число: ')
     if_number = ifnumber.if_number(x)
-    if if_number == 'int' or (x[0] == "-" and x[1:].isdigit()):
+    if if_number == 'int' and int(x) > 0:
         x = int(x)
         break
-    elif if_number == 'float':
+    elif if_number == 'float' and int(x) > 0:
         x = float(x)
         break
     else:
-        print('Данные введены некорректно! Нужно ввести число')
+        print('Данные введены некорректно! Нужно ввести положительное число')
     print()
 
 r = radians(x)
@@ -22,6 +22,4 @@ total = sin(r) + cos(r) + pow(tan(r), 2)
 
 print(f"Значение [{x}] + [{x}] равна {total}.")
 
-# импортируй только те функции, которые используешь
-# Что нужно ввести???
-# Что за бред?
+# done
