@@ -8,12 +8,12 @@ while True:
     if if_number == 'int' and int(num) > 0:
         num = int(num)
         break
-    elif if_number == 'float' and int(num) > 0:
+    elif if_number == 'float' and float(num) > 0:
         num = float(num)
         print()
         break
     else:
-        print('Данные введены некорректно! Нужно ввести целое положительное число')
+        print('Данные введены некорректно! Нужно ввести положительное число')
     print()
 
 total = num % 1
