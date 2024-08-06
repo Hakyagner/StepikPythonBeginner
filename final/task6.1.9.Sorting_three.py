@@ -3,7 +3,7 @@ print("Сортировка трех")
 print()
 
 while True:
-    num1 = input('Введи число: ')
+    num1 = input('Введи первое число: ')
     if_number = ifnumber.if_number(num1)
     if if_number == 'int':
         num1 = int(num1)
@@ -15,7 +15,7 @@ while True:
         print('Данные введены некорректно! Нужно ввести число')
     print()
 while True:
-    num2 = input('Введи число: ')
+    num2 = input('Введи второе число: ')
     if_number = ifnumber.if_number(num2)
     if if_number == 'int':
         num2 = int(num2)
@@ -27,7 +27,7 @@ while True:
         print('Данные введены некорректно! Нужно ввести число')
     print()
 while True:
-    num3 = input('Введи число: ')
+    num3 = input('Введи третье число: ')
     if_number = ifnumber.if_number(num3)
     if if_number == 'int':
         num3 = int(num3)
