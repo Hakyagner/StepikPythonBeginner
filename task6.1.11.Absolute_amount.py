@@ -63,4 +63,4 @@ total = abs(a1) + abs(a2) + abs(a3) + abs(a4) + abs(a5)
 
 print(f"Сумма чисел модуля {a1}, {a2}, {a3}, {a4}, {a5} ровна {total}.")
 
-# Неправильно
+# done
