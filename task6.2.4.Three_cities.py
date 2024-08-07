@@ -24,6 +24,18 @@ print()
 maxsimum = max(len(city1), len(city2), len(city3))
 minimum = min(len(city1), len(city2), len(city3))
 
-print(f"Из названий трёх годов -  {city1, city2, city3} самое длиное название у города - {maxsimum} самое короткое название у города - {minimum}.")
+if len(city1) == minimum:
+    print(city1)
+elif len(city2) == minimum:
+    print(city2)
+elif len(city3) == minimum:
+    print(city3)
 
-# Неправильно
+if len(city1) == maxsimum:
+    print(city1)
+elif len(city2) == maxsimum:
+    print(city2)
+elif len(city3) == maxsimum:
+    print(city3)
+
+# done
