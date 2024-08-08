@@ -62,5 +62,3 @@ while True:
 total = abs(a1) + abs(a2) + abs(a3) + abs(a4) + abs(a5)
 
 print(f"Сумма модулей чисел {a1}, {a2}, {a3}, {a4}, {a5} равна {total}.")
-
-# done

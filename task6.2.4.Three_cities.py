@@ -6,19 +6,19 @@ while True:
     if len(city1) > 0:
         break
     else:
-        print("Ошибка! Введите название города, у которога длина символов не равна 0. ")
+        print("Ошибка! Нужно ввести не пустую строку")
 while True:
     city2 = input("Введите название второго города: ")
     if len(city2) > 0:
         break
     else:
-        print("Ошибка! Введите название города, у которога длина символов не равна 0. ")
+        print("Ошибка! Нужно ввести не пустую строку")
 while True:
     city3 = input("Введите название третьего города: ")
     if len(city3) > 0:
         break
     else:
-        print("Ошибка! Введите название города, у которога длина символов не равна 0. ")
+        print("Ошибка! Нужно ввести не пустую строку")
 print()
 
 maxsimum = max(len(city1), len(city2), len(city3))
@@ -38,4 +38,4 @@ elif len(city2) == maxsimum:
 elif len(city3) == maxsimum:
     print(city3)
 
-# done
+# слишком много len. Избавься от них
