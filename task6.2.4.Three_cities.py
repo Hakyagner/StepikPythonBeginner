@@ -21,21 +21,25 @@ while True:
         print("Ошибка! Нужно ввести не пустую строку")
 print()
 
-maxsimum = max(len(city1), len(city2), len(city3))
-minimum = min(len(city1), len(city2), len(city3))
+city_1 = len(city1)
+city_2 = len(city2)
+city_3 = len(city3)
 
-if len(city1) == minimum:
+maxsimum = max(city_1, city_2, city_3)
+minimum = min(city_1, city_2, city_3)
+
+if city_1 == minimum:
     print(city1)
-elif len(city2) == minimum:
+elif city_2 == minimum:
     print(city2)
-elif len(city3) == minimum:
+elif city_3 == minimum:
     print(city3)
 
-if len(city1) == maxsimum:
+if city_1 == maxsimum:
     print(city1)
-elif len(city2) == maxsimum:
+elif city_2 == maxsimum:
     print(city2)
-elif len(city3) == maxsimum:
+elif city_3 == maxsimum:
     print(city3)
 
-# слишком много len. Избавься от них
+# done
