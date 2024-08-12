@@ -48,4 +48,4 @@ elif city_3 == maximum:
 print(f"Из трёх городов {city1}, {city2}, {city3} самое короткое название у города {min_city}")
 print(f"Из трёх городов {city1}, {city2}, {city3} самое длинное название у города {max_city}")
 
-# done
+# неправильно

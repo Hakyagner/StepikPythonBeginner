@@ -21,4 +21,5 @@ total = ceil(x) + floor(x)
 
 print(f"{x} + {x} = {total}")
 
-# done
+# число может быть любым
+# print неправильный
