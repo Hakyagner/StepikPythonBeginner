@@ -25,7 +25,7 @@ city_1 = len(city1)
 city_2 = len(city2)
 city_3 = len(city3)
 
-maxsimum = max(city_1, city_2, city_3)
+maximum = max(city_1, city_2, city_3)
 minimum = min(city_1, city_2, city_3)
 
 if city_1 == minimum:
@@ -35,11 +35,11 @@ elif city_2 == minimum:
 elif city_3 == minimum:
     print(city3)
 
-if city_1 == maxsimum:
+if city_1 == maximum:
     print(city1)
-elif city_2 == maxsimum:
+elif city_2 == maximum:
     print(city2)
-elif city_3 == maxsimum:
+elif city_3 == maximum:
     print(city3)
 
-# done
+# Из трёх городов ... самое короткое/длинное название у города ...
