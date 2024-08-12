@@ -21,6 +21,9 @@ while True:
         print("Ошибка! Нужно ввести не пустую строку")
 print()
 
+min_city = 0
+max_city = 0
+
 city_1 = len(city1)
 city_2 = len(city2)
 city_3 = len(city3)
@@ -29,17 +32,20 @@ maximum = max(city_1, city_2, city_3)
 minimum = min(city_1, city_2, city_3)
 
 if city_1 == minimum:
-    print(city1)
+    min_city += city1
 elif city_2 == minimum:
-    print(city2)
+    min_city += city2
 elif city_3 == minimum:
-    print(city3)
+    min_city += city3
 
 if city_1 == maximum:
-    print(city1)
+    max_city += city1
 elif city_2 == maximum:
-    print(city2)
+    max_city += city2
 elif city_3 == maximum:
-    print(city3)
+    max_city += city3
 
-# Из трёх городов ... самое короткое/длинное название у города ...
+print(f"Из трёх городов {city1}, {city2}, {city3} самое короткое название у города {min_city}")
+print(f"Из трёх городов {city1}, {city2}, {city3} самое длинное название у города {max_city}")
+
+# done
