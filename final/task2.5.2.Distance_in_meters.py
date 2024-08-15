@@ -9,6 +9,6 @@ while True:
     else:
         print("Нужно ввести целое положительное число")
         print()
-num_metr = num_centimetrs / 100
+num_metr = num_centimetrs // 100
 print()
-print(f"{num_centimetrs} сантиметра = {num_metr} метра")
+print(f"{num_centimetrs} сантиметра = {num_metr} полных метра")
