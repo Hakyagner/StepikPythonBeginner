@@ -42,7 +42,5 @@ elif city_2 == maximum:
 elif city_3 == maximum:
     max_city = city3
 
-print(f"Из трёх городов {city1}, {city2}, {city3} самое короткое название у города {min_city}")
-print(f"Из трёх городов {city1}, {city2}, {city3} самое длинное название у города {max_city}")
-
-# неправильно
+print(f"Среди городов {city1}, {city2}, {city3} самое короткое название у города {min_city}")
+print(f"Среди городов {city1}, {city2}, {city3} самое длинное название у города {max_city}")
