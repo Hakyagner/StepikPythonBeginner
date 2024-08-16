@@ -5,22 +5,17 @@ print()
 string = input("Введите строку: ")
 
 while True:
-    num = input('Введите сколько раз надо будет повторить вашу видённую строку: ')
+    num = input('Сколько раз надо будет повторить вашу строку: ')
     if_number = ifnumber.if_number(num)
-    if if_number == 'int':
+    if if_number == 'int' and int(num) > 0:
         num = int(num)
         break
-    elif if_number == 'float':
-        num = float(num)
-        break
     else:
-        print('Данные введены некорректно! Нужно ввести число')
+        print('Данные введены некорректно! Нужно ввести целое положительное число')
     print()
-print(num)
+print()
 
 for i in range(num):
-    print(num)
+    print(string)
 
-# Если ты в input что-то спрашиваешь, не нужно писать "Введите". Только вопрос
-# Русский язык
-# Если ты просишь ввести число, ты ВСЕГДА должна понимать, каким это число должно быть
+# done
