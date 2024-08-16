@@ -9,4 +9,5 @@ if abs(str_len_2 - str_len_1) == abs(str_len_3 - str_len_2) or abs(str_len_2 - s
     print(f"Из длин этих строк - {str_len_1}, {str_len_2}, {str_len_3} можно построить арифметическую прогрессию.")
 else:
     print(f"Из длин этих строк - {str_len_1}, {str_len_2}, {str_len_3} нельзя построить арифметическую прогрессию.")
-# done
+
+# из длин каких строк?

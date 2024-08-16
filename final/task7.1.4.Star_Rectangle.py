@@ -15,5 +15,3 @@ print()
 
 for i in range(n):
     print("*" * 19)
-
-# done

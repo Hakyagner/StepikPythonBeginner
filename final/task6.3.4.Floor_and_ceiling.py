@@ -20,5 +20,3 @@ while True:
 total = ceil(x) + floor(x)
 
 print(f"⌊{x}⌋ + ⌈{x}⌉ = {total}")
-
-# done
