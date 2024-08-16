@@ -3,19 +3,17 @@ print("Последовательность символов")
 print()
 
 while True:
-    n = input('Введи целое число: ')
+    n = input('Введи ширину прямоугольника: ')
     if_number = ifnumber.if_number(n)
-    if if_number == 'int':
+    if if_number == 'int' and int(n) > 0:
         n = int(n)
         break
-    elif if_number == 'float':
-        n = float(n)
-        break
     else:
-        print('Данные введены некорректно! Нужно ввести целое число')
+        print('Данные введены некорректно! Нужно ввести целое положительное число')
     print()
+print()
 
 for i in range(n):
     print("*" * 19)
 
-# неправильно
+# done
