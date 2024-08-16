@@ -3,20 +3,17 @@ print("Звёздный треугольник")
 print()
 
 while True:
-    n = input('Введи число: ')
+    n = input('Введи целое положительное число больше 1: ')
     if_number = ifnumber.if_number(n)
-    if if_number == 'int' and n == 11:
+    if if_number == 'int' and int(n) > 1:
         n = int(n)
         break
-    elif if_number == 'float' and n == 11:
-        n = float(n)
-        break
     else:
-        print('Данные введены некорректно! Нужно ввести число каторое равно  11.')
+        print('Данные введены некорректно! Нужно ввести целое число больше 1.')
     print()
+print()
 
-for i in range(n):
-    print("*" * (n - i))
+for i in range(n, 0, -1):
+    print("*" * i)
 
-# 11 - это для примера
-# Неправильно
+# done
