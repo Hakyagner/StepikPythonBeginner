@@ -16,11 +16,8 @@ while True:
     if if_number == 'int' and int(p) > 0:
         p = int(p)
         break
-    elif if_number == 'float' and float(p) > 0:
-        p = float(p)
-        break
     else:
-        print('Данные введены некорректно! Нужно ввести положительное число')
+        print('Данные введены некорректно! Нужно ввести целое положительное число')
 while True:
     n = input('Введи количество дней: ')
     if_number = ifnumber.if_number(n)
@@ -30,9 +27,10 @@ while True:
     else:
         print('Данные введены некорректно! Нужно ввести целое положительное число')
     print()
+print()
 
 for i in range(1, n + 1):
-    print(f"Популяция организмов в {i + 1} день составляет {m}.")
+    print(f"Популяция организмов в {i} день составляет {m}.")
     m = m * (1 + p / 100) ** (n - 1)
 
-# Неправильно
+# done
