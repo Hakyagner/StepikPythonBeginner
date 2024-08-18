@@ -11,6 +11,6 @@ if abs(str_len_2 - str_len_1) == abs(str_len_3 - str_len_2) or abs(str_len_2 - s
     ins = "можно"
 else:
     ins = "нельзя"
-msg = f"Из длин этих строк - <{str_1}>, <{str_2}>, <{str_3}> {ins} построить арифметическую прогрессию."
+
+msg = f"Из длин строк <{str_1}>, <{str_2}>, <{str_3}> {ins} построить арифметическую прогрессию."
 print(msg)
-# done
