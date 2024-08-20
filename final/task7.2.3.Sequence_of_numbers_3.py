@@ -2,7 +2,7 @@ import ifnumber
 print("Последовательность чисел 3")
 print()
 while True:
-    print(f"Нужно ввести два числа, первое число больше второго.")
+    print("Нужно ввести два числа, первое число больше второго.")
     while True:
         m = input('Введи первое число: ')
         if_number = ifnumber.if_number(m)
@@ -27,9 +27,7 @@ while True:
         print()
 print()
 
-print(f"Все нечётные целые числа от {m} до {n}:")
+print(f"Нечётные целые числа от {m} до {n}:")
 for i in range(m, n, -1):
     if i % 2 != 0:
         print(i)
-
-# done
