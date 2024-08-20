@@ -21,13 +21,12 @@ while True:
     print()
 print()
 
+print(f"Целые числа от {m} до {n}:")
 if m < n:
-    print(f"Целые числа от {m} до {n}:")
     for i in range(m, n + 1):
         print(i)
 else:
-    print(f"Целые числа от {m} до {n}:")
     for i in range(m, n - 1, -1):
         print(i)
 
-# 2 раза повторяется один и тот же print. Можно сделать так, чтоб он был 1 раз?
+# done
