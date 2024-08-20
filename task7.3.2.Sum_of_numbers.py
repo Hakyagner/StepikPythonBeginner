@@ -3,13 +3,13 @@ print("Сумма чисел")
 print()
 
 while True:
-    n = input('Введи число: ')
+    n = input('Введи целое положительное число: ')
     if_number = ifnumber.if_number(n)
-    if if_number == 'int':
+    if if_number == 'int' and int(n) > 0:
         n = int(n)
         break
     else:
-        print('Данные введены некорректно! Нужно ввести целое число')
+        print('Данные введены некорректно! Нужно ввести целое положительное число')
     print()
 print()
 
@@ -28,4 +28,4 @@ for i in range(n):
 
 print(total)
 
-# Подумай, что такое n. Что нужно спросить у пользователя? И каким должно быть n?
+# done
