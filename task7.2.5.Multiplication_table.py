@@ -3,21 +3,18 @@ print("Таблица умножения")
 print()
 
 while True:
-    n = input('Введи число: ')
+    n = input('Введи целое положительное число: ')
     if_number = ifnumber.if_number(n)
-    if if_number == 'int':
+    if if_number == 'int' and int(n) > 0:
         n = int(n)
         break
     else:
-        print('Данные введены некорректно! Нужно ввести целое число')
+        print('Данные введены некорректно! Нужно ввести целое положительное число')
     print()
 print()
 
-total = 1
-for i in range(total, 11):
-    i = n * i
-    print(f"{n} x {total} = {i}")
-    total += 1
+for i in range(1, 11):
+    total = n * i
+    print(f"{n} x {i} = {total}")
 
-# Какое число нужно ввести?
-# Слишком сложное и избыточное решение
+# done
