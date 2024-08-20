@@ -22,10 +22,12 @@ while True:
 print()
 
 if m < n:
+    print(f"Целые числа от {m} до {n}:")
     for i in range(m, n + 1):
-        print(f"Целые числа от {m} до {n} (включительно) - {i}.")
+        print(i)
 else:
-    for i in range(m, n + 1):
-        print(f"Целые числа от {m} до {n} (включительно) - {i}.")
+    print(f"Целые числа от {m} до {n}:")
+    for i in range(m, n - 1, -1):
+        print(i)
 
 # Неправильно
