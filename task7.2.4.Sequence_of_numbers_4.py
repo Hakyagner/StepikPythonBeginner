@@ -20,10 +20,12 @@ while True:
         print('Данные введены некорректно! Нужно ввести целое положительное число')
     print()
 print()
+if m <= n:
+    print(f"Целые числа от {m} до {n}:")
+    for i in range(m, n + 1):
+        if i % 17 == 0 or i % 10 == 9 or i % 15 == 0:
+            print(i)
+else:
+    print("Ошибка")
 
-print(f"Целые числа от {m} до {n}:")
-for i in range(m, n + 1):
-    if i % 17 == 0 or i % 10 == 9 or i % 15 == 0:
-        print(i)
-
-# m = 20, n = 1. Что будет?
+# done
