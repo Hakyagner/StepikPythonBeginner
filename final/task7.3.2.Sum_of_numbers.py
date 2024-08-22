@@ -3,10 +3,10 @@ print("Сумма чисел")
 print()
 
 while True:
-    num1 = input('Сколько чисел будет введено: ')
-    if_number = ifnumber.if_number(num1)
-    if if_number == 'int' and int(num1) > 0:
-        num1 = int(num1)
+    n = input('Сколько чисел будет введено? ')
+    if_number = ifnumber.if_number(n)
+    if if_number == 'int' and int(n) > 0:
+        n = int(n)
         break
     else:
         print('Данные введены некорректно! Нужно ввести целое положительное число')
@@ -15,17 +15,15 @@ print()
 
 total = 0
 
-for i in range(num1):
+for i in range(n):
     while True:
-        num2 = input('Введи целое число: ')
-        if_number = ifnumber.if_number(num2)
+        num = input('Введи целое число: ')
+        if_number = ifnumber.if_number(num)
         if if_number == 'int':
-            num2 = int(num2)
+            num = int(num)
             break
         else:
             print('Данные введены некорректно! Нужно ввести целое число')
-    total += num2
+    total += num
 
 print(total)
-
-# done
