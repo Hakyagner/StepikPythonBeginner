@@ -1,32 +1,37 @@
 import ifnumber
 print("Количество чисел")
 print()
-
 while True:
-    a = input('Введи первое целое число: ')
-    if_number = ifnumber.if_number(a)
-    if if_number == 'int':
-        a = int(a)
+    print("Нужно ввести два числа, первое число не больше второго.")
+    while True:
+        a = input('Введи первое целое число: ')
+        if_number = ifnumber.if_number(a)
+        if if_number == 'int':
+            a = int(a)
+            break
+        else:
+            print('Данные введены некорректно! Нужно ввести целое число')
+    while True:
+        b = input('Введи второе целое число: ')
+        if_number = ifnumber.if_number(b)
+        if if_number == 'int':
+            b = int(b)
+            break
+        else:
+            print('Данные введены некорректно! Нужно ввести целое число')
+        print()
+    if a <= b:
         break
     else:
-        print('Данные введены некорректно! Нужно ввести целое число')
-while True:
-    b = input('Введи первое целое число: ')
-    if_number = ifnumber.if_number(b)
-    if if_number == 'int':
-        b = int(b)
-        break
-    else:
-        print('Данные введены некорректно! Нужно ввести целое число')
-    print()
+        print('Данные введены некорректно! Первое число не больше второго.')
 print()
 
 total = 0
-if a <= b:
-    for i in range(a, b + 1):
-        if i ** 3 % 10 == 4 or i ** 3 % 10 == 9:
-            total += 1
+
+for i in range(a, b + 1):
+    if i ** 3 % 10 == 4 or i ** 3 % 10 == 9:
+        total += 1
 
 print(f"Количество чисел в диапазоне от {a} до {b} (включительно), куб которых оканчивается на 4 или 9, равно {total}.")
 
-# Неправильно. a = 20, b = 1. Что будет? Условие задачи внимательно читай
+# done
