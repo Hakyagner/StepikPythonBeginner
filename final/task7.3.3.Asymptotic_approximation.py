@@ -19,6 +19,4 @@ total = 0
 for i in range(n):
     total += 1 / (i + 1)
 
-print(f"1 + 1/2 + 1/3 + ... + 1/n - ln(n) = {total - log(n)}")
-
-# неправильно. Внимательно читай условие задачи
+print(f"1 + 1/2 + 1/3 + ... + 1/{n} - ln({n}) = {total - log(n)}")
