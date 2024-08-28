@@ -16,9 +16,10 @@ print()
 total = 0
 
 for i in range(1, n + 1):
-    if i ** 2 % 10 == 2 or i ** 3 % 10 == 5 or i ** 3 % 10 == 8:
-        total += 1
+    last_digit_square_number = i ** 2 % 10
+    if last_digit_square_number == 2 or last_digit_square_number == 5 or last_digit_square_number == 8:
+        total += i
 
-print(f"Количество чисел в диапазоне от 1 до {n}, квадрат которых оканчивается на 2, 5 или 8, равно {total}.")
+print(f"Сумма чисел в диапазоне от 1 до {n}, квадрат которых оканчивается на 2, 5 или 8, равна {total}.")
 
-# i ** 2 % 10 повторяется. Оптимизируй
+# done
