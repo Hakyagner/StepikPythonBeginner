@@ -29,9 +29,10 @@ print()
 total = 0
 
 for i in range(a, b + 1):
-    if i ** 3 % 10 == 4 or i ** 3 % 10 == 9:
+    last_digit_cube_number = i ** 3 % 10
+    if last_digit_cube_number == 4 or last_digit_cube_number == 9:
         total += 1
 
 print(f"Количество чисел в диапазоне от {a} до {b}, куб которых оканчивается на 4 или 9 - {total}.")
 
-# i ** 3 % 10 - вычисления делаются 2 раза. Оптимизируй
+# done
