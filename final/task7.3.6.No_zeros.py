@@ -23,5 +23,3 @@ for i in range(10):
         total *= num
 
 print(f"Произведение отличных от нуля чисел равно {total}")
-
-# done
