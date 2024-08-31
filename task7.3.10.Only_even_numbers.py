@@ -19,3 +19,13 @@ if total == 10:
     print('YES')
 else:
     print('NO')
+# a   b   a + b
+# 1   1     2
+# 1   2     3
+# 2   3     5
+# 3   5       8
+# 5   8       13
+# c = a
+# a = b
+# b = c + b
+# a, b = b, a + b
