@@ -21,4 +21,15 @@ for i in range(1, n + 1):
     else:
         total += i
 
-print(f"1 − 2 + 3 − 4 + … + (−1)^{n+1} * {n} = {total}")
+if n <= 4:
+    s = '1'
+    sep = ''
+    for i in range(2, n + 1):
+        if i % 2 == 0:
+            sep = ' - '
+        else:
+            sep = ' + '
+        s = s + sep + str(i)
+    print(f'{s} = {total}')
+else:
+    print(f"1 − 2 + 3 − 4 + … + (−1)^{n+1} * {n} = {total}")
