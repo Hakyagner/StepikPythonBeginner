@@ -3,7 +3,7 @@ print("Наибольшие числа")
 print()
 
 while True:
-    num = input('Введи целое положительное число: ')
+    num = input('Сколько будет введено чисел? ')
     if_number = ifnumber.if_number(num)
     if if_number == 'int' and int(num) > 0:
         num = int(num)
@@ -18,7 +18,7 @@ maximum2 = 0
 
 for i in range(num):
     while True:
-        n = input('Введи целое положительное число: ')
+        n = input(f'Введи целое положительное число {i + 1}: ')
         if_number = ifnumber.if_number(n)
         if if_number == 'int' and int(n) > 0:
             n = int(n)
@@ -31,9 +31,7 @@ for i in range(num):
     if maximum2 >= maximum1:
         maximum2, maximum1 = maximum1, maximum2
 
-print(f"Наибольшее число - {maximum1}")
-print(f"Второе наибольшее число последовательности - {maximum2}")
+print(f"Первое наибольшее число введённой последовательности - {maximum1}")
+print(f"Второе наибольшее число введённой последовательности - {maximum2}")
 
-# Решение правильное, но есть нюансы
-# Что нужно спросить, чтобы пользователю было понятно, что от него требуется в самом начале?
-# Переделай ввод чисел так, чтобы было понятно, какое по счёту число вводится
+# done
