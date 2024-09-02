@@ -2,6 +2,7 @@ import ifnumber
 print("Сумма чисел")
 print()
 
+
 while True:
     n = input('Введи целое число: ')
     if_number = ifnumber.if_number(n)
@@ -27,4 +28,4 @@ while n >= 0:
         print()
     print()
 
-print(f"{total}")
+print(f"Сумма всех членов данной последовательности рана {total}")
