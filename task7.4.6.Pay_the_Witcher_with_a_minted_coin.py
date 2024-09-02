@@ -3,7 +3,7 @@ print("Ведьмаку заплатите чеканной монетой")
 print()
 
 while True:
-    summa = input('Введи целое число: ')
+    summa = input('Сколько нужно заплатить Ведьмаку: ')
     if_number = ifnumber.if_number(summa)
     if if_number == 'int':
         summa = int(summa)
