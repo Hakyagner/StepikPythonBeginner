@@ -14,7 +14,7 @@ while True:
 print()
 
 while n % 7 == 0 and int(n) != 0:
-    print(f"{n}")
+    print(f"Члены данной последовательности {n}")
     while True:
         n = input('Введи целое число: ')
         if_number = ifnumber.if_number(n)
