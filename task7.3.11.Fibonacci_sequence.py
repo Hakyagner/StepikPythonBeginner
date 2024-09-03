@@ -9,9 +9,6 @@ while True:
         n = int(n)
         print()
         break
-    elif if_number == 'float' and float(n) > 0:
-        n = float(n)
-        break
     else:
         print('Данные введены некорректно! Нужно ввести целое положительное число')
     print()
@@ -25,6 +22,6 @@ for i in range(n):
         print(1, 1)
     else:
         a, b = b, a + b
-        print({a}, end=' ')
+        print(a, end=' ')
 
-# Введи число 3.2
+# done
