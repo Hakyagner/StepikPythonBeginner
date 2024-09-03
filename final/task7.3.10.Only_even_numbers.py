@@ -22,5 +22,3 @@ if counter == 10:
 else:
     temp = "не"
 print(f"В последовательности {sequence}{temp} все числа чётные")
-
-# done

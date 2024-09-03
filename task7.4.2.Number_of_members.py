@@ -10,3 +10,5 @@ while text.lower() != 'стоп' and text.lower() != 'хватит' and text.low
     text = input("Введи строку:")
 
 print(f"Общее количество членов {sequence}последовательности {total}")
+
+# Введи пустые строки

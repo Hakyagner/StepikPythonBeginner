@@ -26,3 +26,5 @@ for i in range(n):
     else:
         a, b = b, a + b
         print({a}, end=' ')
+
+# Введи число 3.2

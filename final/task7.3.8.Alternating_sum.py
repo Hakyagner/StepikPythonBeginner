@@ -21,7 +21,7 @@ for i in range(1, n + 1):
     else:
         total += i
 
-if n <= 4:
+if n <= 5:
     s = '1'
     sep = ''
     for i in range(2, n + 1):
@@ -32,4 +32,4 @@ if n <= 4:
         s = s + sep + str(i)
     print(f'{s} = {total}')
 else:
-    print(f"1 − 2 + 3 − 4 + … + (−1)^{n+1} * {n} = {total}")
+    print(f"1 − 2 + 3 − 4 + … + (−1)^{n + 1} * {n} = {total}")
