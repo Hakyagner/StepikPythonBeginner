@@ -2,10 +2,17 @@ print("До КОНЦА")
 print()
 
 sequence = ""
-text = input("Введи строку:")
-while text.upper() != 'КОНЕЦ':
-    sequence += (text + " ")
-    print(f"Члены {sequence}последовательности равны {text}")
-    text = input("Введи строку:")
 
-# Введи пустую строку
+while True:
+    while True:
+        text = input("Введи строку: ")
+        if text == "":
+            print(f"Строка не должна быть пустой.")
+        else:
+            break
+    if text.upper() == 'КОНЕЦ':
+        break
+    print(text)
+
+# done
+
