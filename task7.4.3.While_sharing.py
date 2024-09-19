@@ -13,10 +13,10 @@ while True:
     print()
 print()
 
-while n % 7 == 0 and int(n) != 0:
-    print(f"Члены данной последовательности {n}")
+while n % 7 == 0:
+    print(n)
     while True:
-        n = input('Введи целое число: ')
+        n = input('Введи следующие целое число: ')
         if_number = ifnumber.if_number(n)
         if if_number == 'int':
             n = int(n)
@@ -24,6 +24,5 @@ while n % 7 == 0 and int(n) != 0:
         else:
             print('Данные введены некорректно! Нужно ввести целое число')
         print()
-    print()
 
 # неправильно. Нужно себя проверять
