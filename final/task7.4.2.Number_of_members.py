@@ -19,5 +19,3 @@ while True:
         total += 1
 
 print(f"Было введено {total} слов(а)")
-
-# done

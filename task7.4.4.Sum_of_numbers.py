@@ -2,7 +2,6 @@ import ifnumber
 print("Сумма чисел")
 print()
 
-
 while True:
     n = input('Введи целое число: ')
     if_number = ifnumber.if_number(n)

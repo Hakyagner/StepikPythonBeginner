@@ -13,6 +13,3 @@ while True:
     if text.upper() == 'КОНЕЦ':
         break
     print(text)
-
-# done
-
