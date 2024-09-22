@@ -1,14 +1,23 @@
 print("Количество членов")
 print()
 
-sequence = ""
-text = input("Введи строку:")
 total = 0
-while text.lower() != 'стоп' and text.lower() != 'хватит' and text.lower() != 'достаточно':
-    total += 1
-    sequence += (text + " ")
-    text = input("Введи строку:")
+while True:
+    while True:
+        text = input("Введи слово: ").lower().strip()
+        if text == "":
+            print("Строка не должна быть пустой!")
+            print()
+        elif " " in text:
+            print("Нужно ввести одно слово.")
+            print()
+        else:
+            break
+    if text == "стоп" or text == "хватит" or text == "достаточно":
+        break
+    else:
+        total += 1
 
-print(f"Общее количество членов {sequence}последовательности {total}")
+print(f"Было введено {total} слов(а)")
 
-# Введи пустые строки
+# done
