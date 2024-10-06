@@ -3,9 +3,9 @@ print("Ведьмаку заплатите чеканной монетой")
 print()
 
 while True:
-    summa = input('Сколько нужно заплатить Ведьмаку: ')
+    summa = input('Сколько нужно заплатить Ведьмаку? ')
     if_number = ifnumber.if_number(summa)
-    if if_number == 'int':
+    if if_number == 'int' and int(summa) >= 0:
         summa = int(summa)
         break
     else:
@@ -28,5 +28,4 @@ while summa != 0:
 
 print(f"Ведьмаку нужно отдать минимум {total} чеканных монет.")
 
-# Ты задаёшь вопрос
-# Какое число нужно ввести?
+# done
