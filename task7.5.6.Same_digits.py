@@ -9,9 +9,6 @@ while True:
     if if_number == 'int' and int(num) > 0:
         num = int(num)
         break
-    elif if_number == 'float':
-        num = float(num)
-        break
     else:
         print('Данные введены некорректно! Нужно ввести целое положительное число.')
         print()
