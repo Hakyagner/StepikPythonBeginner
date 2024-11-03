@@ -16,6 +16,10 @@ i = 2
 
 while True:
     if n % i == 0:
-        print(i)
+        print(f"Наименьший отличный от 1 делитель числа {n} - {i}.")
         break
     i += 1
+# for i in range(2, n+1):
+#     if n % i == 0:
+#         print(i)
+#         break
