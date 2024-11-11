@@ -1,10 +1,12 @@
-
 print("Старинная задача")
 print()
 
-for bulls in range(11):
-    for cows in range(21):
+max_bulls = 100 // 10
+max_cows = 100 // 5
+
+for bulls in range(max_bulls + 1):
+    for cows in range(max_cows + 1):
         calves = 100 - (bulls + cows)
         if calves >= 0:
             if (bulls * 10 + cows * 5 + calves * 0.5) == 100:
-                print(f"Быки = {bulls}, коровы = {cows}, телята = {calves}")
+                print(f"Быков = {bulls}, коров = {cows}, телят = {calves}")

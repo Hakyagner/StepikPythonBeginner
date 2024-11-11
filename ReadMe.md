@@ -330,11 +330,11 @@
 
 [Теория](problems/theory.md)
 
-| <!-- -->                                                                                 | <!-- -->                                                                       | <!-- -->                                                              |
-|------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------|-----------------------------------------------------------------------|
-| [**11.5.1.** Line by line output](problems/problem11.5.1.Line_by_line_output.md)         | [**11.5.2.** Initials](problems/problem11.5.2.Initials.md)                     | [**11.5.3.** Windows OS](problems/problem11.5.3.Windows_OS.md)        |
-| [**11.5.4.** Diagram](problems/problem11.5.4.Diagram.md)                                 | [**11.5.5.** Correct IP address](problems/problem11.5.5.Correct_IP_address.md) | [**11.5.6.** Add a separator**](problems/problem11.5.6.Add_separator) |
-| [**11.5.7.** Number of matching pairs](problems/problem11.5.7.Number_of_matching_pairs)  |                                                                                |                                                                       |
+| <!-- -->                                                                                   | <!-- -->                                                                       | <!-- -->                                                                 |
+|--------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------|--------------------------------------------------------------------------|
+| [**11.5.1.** Line by line output](problems/problem11.5.1.Line_by_line_output.md)           | [**11.5.2.** Initials](problems/problem11.5.2.Initials.md)                     | [**11.5.3.** Windows OS](problems/problem11.5.3.Windows_OS.md)           |
+| [**11.5.4.** Diagram](problems/problem11.5.4.Diagram.md)                                   | [**11.5.5.** Correct IP address](problems/problem11.5.5.Correct_IP_address.md) | [**11.5.6.** Add a separator**](problems/problem11.5.6.Add_separator.md) |
+| [**11.5.7.** Number of matching pairs](problems/problem11.5.7.Number_of_matching_pairs.md) |                                                                                |                                                                          |
 
 ### 11.6. *Методы списков. Часть 2*
 
@@ -359,14 +359,24 @@
 
 [Теория](problems/theory.md)
 
-| <!-- -->                                                                   | <!-- -->                                                          | <!-- -->                                                                   |
-|----------------------------------------------------------------------------|-------------------------------------------------------------------|----------------------------------------------------------------------------|
-| [**11.8.1.** Bubble sort 1](problems/problem11.8.1.Bubble_sort_1)          | [**11.8.2.** Bubble sort 2](problems/problem11.8.2.Bubble_sort_2) | [**11.8.3.** Selection sort 1](problems/problem11.7.3.Selection_sort_1.md) |
-| [**11.8.4.** Selection sort 2](problems/problem11.8.4.Selection_sort_2.md) |                                                                   |                                                                            |
+| <!-- -->                                                                   | <!-- -->                                                             | <!-- -->                                                                   |
+|----------------------------------------------------------------------------|----------------------------------------------------------------------|----------------------------------------------------------------------------|
+| [**11.8.1.** Bubble sort 1](problems/problem11.8.1.Bubble_sort_1.md)       | [**11.8.2.** Bubble sort 2](problems/problem11.8.2.Bubble_sort_2.md) | [**11.8.3.** Selection sort 1](problems/problem11.8.3.Selection_sort_1.md) |
+| [**11.8.4.** Selection sort 2](problems/problem11.8.4.Selection_sort_2.md) |                                                                      |                                                                            |
 
-## 3. Итоговая работа по теме "Списки"
+## 12. Итоговая работа по теме "Списки"
 
 | <!-- -->                                                             | <!-- -->                                                                   | <!-- -->                                                               |
 |----------------------------------------------------------------------|----------------------------------------------------------------------------|------------------------------------------------------------------------|
 | [**12.2.1.** List of even](problems/problem12.2.1.List_of_even.md)   | [**12.2.2.** Sum of two lists](problems/problem12.2.2.Sum_of_two_lists.md) | [**12.2.3.** Sum of numbers](problems/problem12.2.3.Sum_of_numbers.md) |
 | [**12.2.4.** Valid number**](problems/problem12.2.4.Valid_number.md) | [**12.2.5.** Longest**](problems/problem12.2.5.Longest.md)                 | [**12.2.6.** Longest**](problems/problem12.2.6.Youth_slang.md)         |
+
+## 13. Функции
+
+### 13.1. *Функции без параметров*
+
+[Теория](problems/theory.md)
+
+| <!-- -->                                                                   | <!-- -->                                                                 |
+|----------------------------------------------------------------------------|--------------------------------------------------------------------------|
+| [**13.1.1.** Star rectangle 1](problems/problem13.1.1.Star_rectangle_1.md) | [**13.1.2.** Star Triangle 1](problems/problem13.1.2.Star_Triangle_1.md) |

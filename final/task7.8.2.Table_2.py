@@ -14,5 +14,3 @@ while True:
 
 for i in range(1, n + 1):
     print(i, i, i, i, i)
-
-# Если вдруг надо писать ещё что-то в print, то подскажи что надо !
